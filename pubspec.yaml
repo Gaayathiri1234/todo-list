@@ -1,0 +1,27 @@
+
+name: todo_local_db
+description: A Flutter app with local DB.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.6
+  google_sign_in: ^6.2.1
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
